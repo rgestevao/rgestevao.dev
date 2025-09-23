@@ -33,14 +33,14 @@ const ExperienceItem: React.FC<{ experience: Experience }> = ({ experience }) =>
 
 const About: React.FC = () => {
     const images = [
-        'assets/aboutMe/Imagem01.jpg',
-        'assets/aboutMe/Imagem02.jpg',
-        'assets/aboutMe/Imagem03.jpg',
-        'assets/aboutMe/Imagem04.jpg',
-        'assets/aboutMe/Imagem05.jpg',
-        'assets/aboutMe/Imagem06.PNG',
-        'assets/aboutMe/Imagem07.webp',
-        'assets/aboutMe/Imagem08.webp',
+        '/aboutMe/Imagem01.jpg',
+        '/aboutMe/Imagem02.jpg',
+        '/aboutMe/Imagem03.jpg',
+        '/aboutMe/Imagem04.jpg',
+        '/aboutMe/Imagem05.jpg',
+        '/aboutMe/Imagem06.PNG',
+        '/aboutMe/Imagem07.webp',
+        '/aboutMe/Imagem08.webp',
     ];
     
   return (

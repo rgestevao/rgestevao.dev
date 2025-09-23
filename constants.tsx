@@ -18,19 +18,19 @@ export const PROJECTS: Project[] = [
   {
     title: 'Zappin',
     description: 'Chatbot com IA para auxílio de pequenos e médios comércios na gestão de suas vendas com clientes via WhatsApp.',
-    images: ['assets/zappin-image.png'],
+  images: ['/zappin-image.png'],
     githubUrl: 'https://github.com/zappin-app/zappin-web',
   },
   {
     title: 'Passit',
     description: 'Sistema para doações para ONGs, instituições e pessoas que necessitam de ajuda.',
-    images: ['assets/PassIt-image.png'],
+  images: ['/PassIt-image.png'],
     githubUrl: 'https://github.com/rodrigoges/pass-it',
   },
   {
     title: 'GlicoControl',
     description: 'Um aplicativo para gerenciamento e controle de glicemias diárias.',
-    images: ['assets/glicocontrol-image.png'],
+  images: ['/glicocontrol-image.png'],
     githubUrl: 'https://github.com/rodrigoges/glicocontrol',
   },
 ];
