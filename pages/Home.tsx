@@ -14,8 +14,14 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
       <div className="bg-black-700 rounded-lg overflow-hidden h-full flex flex-col group transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer">
         <img 
           src={project.images[0]} 
+          srcSet={`
+            ${project.images[0]} 1x,
+            ${project.images[0].replace('.webp', '.webp')} 2x
+          `}
+          sizes="(max-width: 600px) 100vw, 600px"
           alt={`${project.title} screenshot 1`} 
           className="w-full h-56 object-cover"
+          loading="lazy"
         />
         <div className="p-6 flex flex-col flex-grow">
           <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
